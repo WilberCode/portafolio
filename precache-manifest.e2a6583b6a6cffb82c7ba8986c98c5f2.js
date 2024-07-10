@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/portafolio/js/about.5cd676d4.js"
   },
   {
-    "revision": "4a594caefb3dddaf39fc",
+    "revision": "b2dd3b79c46b9ee56cc4",
     "url": "/portafolio/css/app.afc5e79b.css"
   },
   {
-    "revision": "4a594caefb3dddaf39fc",
-    "url": "/portafolio/js/app.5c107dab.js"
+    "revision": "b2dd3b79c46b9ee56cc4",
+    "url": "/portafolio/js/app.5523f0ea.js"
   },
   {
     "revision": "88773a5cd3bf3da88f42",
@@ -172,16 +172,16 @@ self.__precacheManifest = [
     "url": "/portafolio/img/pigeon - copia.22565ce4.jpg"
   },
   {
+    "revision": "570eb83859dc23dd0eec423a49e147fe",
+    "url": "/portafolio/fonts/MaterialIcons-Regular.570eb838.woff2"
+  },
+  {
     "revision": "e79bfd88537def476913f3ed52f4f4b3",
     "url": "/portafolio/fonts/MaterialIcons-Regular.e79bfd88.eot"
   },
   {
     "revision": "012cf6a10129e2275d79d6adac7f3b02",
     "url": "/portafolio/fonts/MaterialIcons-Regular.012cf6a1.woff"
-  },
-  {
-    "revision": "570eb83859dc23dd0eec423a49e147fe",
-    "url": "/portafolio/fonts/MaterialIcons-Regular.570eb838.woff2"
   },
   {
     "revision": "a37b0c01c0baf1888ca812cc0508f6e2",
@@ -208,12 +208,16 @@ self.__precacheManifest = [
     "url": "/portafolio/fonts/Roboto-Thin.d3b47375.woff"
   },
   {
+    "revision": "c73eb1ceba3321a80a0aff13ad373cb4",
+    "url": "/portafolio/fonts/Roboto-Light.c73eb1ce.woff"
+  },
+  {
     "revision": "8a96edbbcd9a6991d79371aed0b0288e",
     "url": "/portafolio/fonts/Roboto-ThinItalic.8a96edbb.woff"
   },
   {
-    "revision": "c73eb1ceba3321a80a0aff13ad373cb4",
-    "url": "/portafolio/fonts/Roboto-Light.c73eb1ce.woff"
+    "revision": "13efe6cbc10b97144a28310ebdeda594",
+    "url": "/portafolio/fonts/Roboto-LightItalic.13efe6cb.woff"
   },
   {
     "revision": "e8eaae902c3a4dacb9a5062667e10576",
@@ -232,14 +236,6 @@ self.__precacheManifest = [
     "url": "/portafolio/fonts/Roboto-RegularItalic.4357beb8.woff2"
   },
   {
-    "revision": "13ec0eb5bdb821ff4930237d7c9f943f",
-    "url": "/portafolio/fonts/Roboto-MediumItalic.13ec0eb5.woff2"
-  },
-  {
-    "revision": "13efe6cbc10b97144a28310ebdeda594",
-    "url": "/portafolio/fonts/Roboto-LightItalic.13efe6cb.woff"
-  },
-  {
     "revision": "90d1676003d9c28c04994c18bfd8b558",
     "url": "/portafolio/fonts/Roboto-Medium.90d16760.woff2"
   },
@@ -252,36 +248,40 @@ self.__precacheManifest = [
     "url": "/portafolio/fonts/Roboto-Medium.1d659482.woff"
   },
   {
-    "revision": "83e114c316fcc3f23f524ec3e1c65984",
-    "url": "/portafolio/fonts/Roboto-MediumItalic.83e114c3.woff"
-  },
-  {
     "revision": "50d75e48e0a3ddab1dd15d6bfb9d3700",
     "url": "/portafolio/fonts/Roboto-Bold.50d75e48.woff"
+  },
+  {
+    "revision": "13ec0eb5bdb821ff4930237d7c9f943f",
+    "url": "/portafolio/fonts/Roboto-MediumItalic.13ec0eb5.woff2"
+  },
+  {
+    "revision": "83e114c316fcc3f23f524ec3e1c65984",
+    "url": "/portafolio/fonts/Roboto-MediumItalic.83e114c3.woff"
   },
   {
     "revision": "b52fac2bb93c5858f3f2675e4b52e1de",
     "url": "/portafolio/fonts/Roboto-Bold.b52fac2b.woff2"
   },
   {
+    "revision": "94008e69aaf05da75c0bbf8f8bb0db41",
+    "url": "/portafolio/fonts/Roboto-BoldItalic.94008e69.woff2"
+  },
+  {
     "revision": "59eb3601394dd87f30f82433fb39dd94",
     "url": "/portafolio/fonts/Roboto-Black.59eb3601.woff2"
+  },
+  {
+    "revision": "f75569f8a5fab0893fa712d8c0d9c3fe",
+    "url": "/portafolio/fonts/Roboto-BlackItalic.f75569f8.woff2"
   },
   {
     "revision": "4fe0f73cc919ba2b7a3c36e4540d725c",
     "url": "/portafolio/fonts/Roboto-BoldItalic.4fe0f73c.woff"
   },
   {
-    "revision": "94008e69aaf05da75c0bbf8f8bb0db41",
-    "url": "/portafolio/fonts/Roboto-BoldItalic.94008e69.woff2"
-  },
-  {
     "revision": "313a65630d341645c13e4f2a0364381d",
     "url": "/portafolio/fonts/Roboto-Black.313a6563.woff"
-  },
-  {
-    "revision": "f75569f8a5fab0893fa712d8c0d9c3fe",
-    "url": "/portafolio/fonts/Roboto-BlackItalic.f75569f8.woff2"
   },
   {
     "revision": "cc2fadc3928f2f223418887111947b40",
@@ -312,7 +312,7 @@ self.__precacheManifest = [
     "url": "/portafolio/img/lumiluperu.a1091cd3.jpg"
   },
   {
-    "revision": "30e3cae1f34fb7ebc70900efce9fd133",
+    "revision": "b50bd8d59ca3c78bf3faf5eda102d400",
     "url": "/portafolio/index.html"
   },
   {
