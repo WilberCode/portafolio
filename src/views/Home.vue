@@ -16,7 +16,7 @@
              <Success/>
              <h2 id="Conocimientos" class="text-xs-center mt-5 mb-4" >Conocimientos</h2>
              <Knowledge/>
-             <h2 id="Conocimientos" class="text-xs-center mt-5 mb-4" >Conocimientos</h2>
+             <h2 id="Conocimientos" class="text-xs-center mt-5 mb-4" >Conocimientos Adicioanles</h2>
              <knowledge-secondary/>
             </v-flex>
          </v-layout>
