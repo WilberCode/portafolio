@@ -6,7 +6,7 @@
         <v-card class="card">
           <v-img
             class="white--text" 
-            :src="require(`../assets/${page.imgUrl}`)" 
+            :src="require(`../assets/${page.imgUrl}?v=1`)" 
           >
             <v-container fill-height fluid>
               <v-layout fill-height>
@@ -19,7 +19,7 @@
           <div class="card-description">
               <v-card-title >
               <div>
-                <span class="font-weight-bold">{{page.name}}</span> 
+                <h3 class="font-weight-bold ">{{page.name}}</h3> 
                 <p class="grey--text">{{page.sector}}</p> 
                 <a  class="list-link py-2 pr-5" :href="page.link" target="_blank" >{{page.link}}</a> 
               </div>
@@ -39,29 +39,78 @@ export default {
         pages:[
          
            {
-            imgUrl:'lumiluperu.jpg',
-            name:'Lumilu Perú',
+            imgUrl:'lumiluperuscreen.jpg',
+            name:'Lumilu Perú - Tienda',
             sector:'Market Shop', 
             link:'https://lumiluperu.com/'
           }, 
           {
-            imgUrl:'pigeon.jpg',
+            imgUrl:'pigeonscreen.jpg',
             name:'Pigeon LATAM',
             sector:'Cuidado del bebé', 
             link:'https://pigeonlatam.com'
           },
            {
-            imgUrl:'screenshot-igc.jpg',
+            imgUrl:'igcscreen.jpg',
             name:'IGC - Instituto de Gerencia Intercontinental',
             sector:'Centro de capacitación', 
             link:'https://igc.edu.pe'
           },
            {
-            imgUrl:'screenshot-escuela.jpg',
-            name:'EG - Escuela de Gerencia y Gestión',
-            sector:'Centro de capacitación', 
-            link:'https://escuelag.com'
+            imgUrl:'soldametalscreen.jpg',
+            name:'Soldametal - Tienda',
+            sector:'Los mejores equipos de soldar', 
+            link:'https://soldametal.com/'
           },
+          {
+            imgUrl:'ldmscreen.jpg',
+            name:'Portal de luna de miel',
+            sector:'Guía para parejas', 
+            link:'https://www.lunademiel.com.pe/'
+          },
+          {
+            imgUrl:'hosteleriascreen.jpg',
+            name:'Hosteleria Maquinaria',
+            sector:'Market', 
+            link:'https://hosteleriamaquinaria.es/'
+          },
+          {
+            imgUrl:'smilescreen.jpg',
+            name:'Smiles Peru',
+            sector:'Leading Dentist in Lima, Peru', 
+            link:'https://www.smilesperu.com/'
+          },
+          {
+            imgUrl:'yourscreen.jpg',
+            name:'Your Essence Peru',
+            sector:'Salud y belleza integral', 
+            link:'https://youressenceperu.com/'
+          },
+          {
+            imgUrl:'emauscreen.jpg',
+            name:'Emaus santa rosa',
+            sector:'Donaciones', 
+            link:'https://www.emaussantarosa.org/'
+          },
+          {
+            imgUrl:'call2actionscreen.jpg',
+            name:'Call2action',
+            sector:'Agencia de Marketing',
+            link:'https://call2action.pe/'
+          }, 
+          {
+            imgUrl:'winescreen.jpg',
+            name:'Wine and Art',
+            sector:'Pintura y Vino',
+            link:'https://wineandartexperience.com/'
+          }, 
+          {
+            imgUrl:'ambulscreen.jpg',
+            name:'Ambul',
+            sector:'Tienda',
+            link:'https://comercializadoraambul.com/'
+          }, 
+       
            {
             imgUrl:'prestigescreenshot.jpg',
             name:'Prestige Dental Care',
@@ -69,23 +118,18 @@ export default {
             link:'https://prestigedentalcarefl.com/'
           },  
          
-          {
-            imgUrl:'call2action.jpg',
-            name:'Call2action',
-            sector:'Agencia de Marketing',
-            link:'https://call2action.pe/'
-          },
-           {
-            imgUrl:'lunademielscreenshot.jpg',
-            name:'Portal de luna de miel',
-            sector:'Guía para parejas', 
-            link:'https://www.lunademiel.com.pe/'
-          },
+          
           {
             imgUrl:'tendenzescreenshot.jpg',
             name:'Tendenze Perú Comunicaciones',
             sector:'Agencia de Marketing',
             link:'https://tendenzeperu.com/'
+          },
+          {
+            imgUrl:'screenshot-escuela.jpg',
+            name:'EG - Escuela de Gerencia y Gestión',
+            sector:'Centro de capacitación', 
+            link:'https://escuelag.com'
           },
           {
             imgUrl:'cyberweektododkasa.jpg',

@@ -10,14 +10,14 @@
          <v-layout row wrap>
            <v-flex xs12>  
             
-            <h2 id="Experencias" class="text-xs-center mt-5 mb-4" >Experencias</h2>
+            <h2 id="experencia" class="text-xs-center mt-5 mb-4" >Experencias</h2>
             <Experencies/>
-             <h2 id="Casosdeexito" class="text-xs-center mt-5 mb-4">Páginas desarrolladas</h2>
+             <h2 id="proyectos" class="text-xs-center mt-5 mb-4">Páginas desarrolladas</h2>
              <Success/>
-             <h2 id="Conocimientos" class="text-xs-center mt-5 mb-4" >Conocimientos</h2>
-             <Knowledge/>
-             <h2 id="Conocimientos" class="text-xs-center mt-5 mb-4" >Conocimientos Adicioanles</h2>
-             <knowledge-secondary/>
+             <h2 id="conocimientos" class="text-xs-center mt-5 mb-4" >Conocimientos</h2>
+            <Knowledge/>
+             <h2 id="conocimientos" class="text-xs-center mt-5 mb-4" >Conocimientos Adicionales</h2>
+            <knowledge-secondary/>
             </v-flex>
          </v-layout>
       </v-container>
@@ -25,7 +25,7 @@
     <Footer/> 
 </div>
 </template>
- 
+
  
 <script>
 
@@ -35,7 +35,7 @@
  import Experencies from '../components/Experencies'
  import Success from '../components/Success'
  import Footer from '../components/Footer' 
-import KnowledgeSecondary from '../components/KnowledgeSecondary'
+import KnowledgeSecondary from '../components/KnowledgeSecondary.vue'
  export default {
   components:{
       Knowledge,
@@ -74,7 +74,7 @@ h1,h2,h3,h4,h5 {
 * i{ font-family: 'Material Icons' !important; }
 .morphsvg{ 
     width:100%;
-    height:650px;
+    height:740px;
     position:absolute;  
     top:0;
     left:0;
@@ -93,14 +93,14 @@ h1,h2,h3,h4,h5 {
     //    d: path("M0 0H1366V557.448C1150 569 1092.91 607.458 838.535 648.223C322 731 0 668.512 0 668.512V0Z"); 
     //   }
     // }  
-    @media (max-width:650px){
+    @media (max-width:1000px){
       height:780px; 
       path.morph{
        d: path("M0 0H1366V492.82C1150 503.034 1092.91 537.033 838.535 573.072C322 646.252 0 573.072 0 573.072V0Z"); 
       } 
     }   
-    @media (max-width:250px){
-      height:850px; 
+    @media (max-width:400px){
+      height:980px; 
     }   
     
   

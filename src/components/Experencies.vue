@@ -33,6 +33,8 @@
                              <ul class="list list-success mt-2" >
                                  <h3  class="font-weight-bold roboto-condensed-bold black--text mt-3 mb-2 " >Páginas Webs</h3>
                                 <li>Pigeon LATAM: <a  class="list-link" href="https://pigeonlatam.com/" target="_blank" >https://pigeonlatam.com/</a> </li>
+                                <li>Emaussantarosa: <a  class="list-link" href="https://www.emaussantarosa.org/" target="_blank" >https://www.emaussantarosa.org/</a> </li>
+                                <li>Smiles Peru: <a  class="list-link" href="https://www.smilesperu.com/" target="_blank" >https://www.smilesperu.com/</a> </li>
                                 <li>Luna de miel: <a  class="list-link" href="https://www.lunademiel.com.pe/" target="_blank" >https://www.lunademiel.com.pe</a> </li>
                                 <li>Prestige Dental Care: <a  class="list-link" href="https://prestigedentalcarefl.com" target="_blank" >https://prestigedentalcarefl.com</a> </li>
                                 <li>Grupo Tendenze Comunicaciones: <a  class="list-link" href="https://tendenzeperu.com/" target="_blank" >https://tendenzeperu.com</a> </li>
@@ -59,7 +61,7 @@
                     </v-avatar>
                 </template>
                 <template v-slot:opposite  align-start >
-                    <span >Febrero 2023 - Agosto 2023 💪</span>
+                    <span >Febrero 2023 - Agosto 2023</span>
                 </template>
 
                 <v-card color="white lighten-1 pt-4 experencie-card "
@@ -84,9 +86,11 @@
                                 <li>Your Essence Peru: <a  class="list-link" href="https://youressenceperu.com/" target="_blank" >https://youressenceperu.com/</a> </li>
                                 <li>Curriculums: <a  class="list-link" href="https://www.curriculums.com.pe/" target="_blank" >https://www.curriculums.com.pe/</a> </li>
                                 <li>Emprende: <a  class="list-link" href="https://emprende.net/" target="_blank" >https://emprende.net/</a> </li>
+                                <li>Wine and Art: <a  class="list-link" href="https://wineandartexperience.com/" target="_blank" >https://wineandartexperience.com/</a> </li>
                                 <h3  class="font-weight-bold roboto-condensed-bold black--text mt-3 mb-2 " >Tiendas Online</h3>
                                 <li>Soldametal: <a  class="list-link" href="https://soldametal.com/" target="_blank" >https://soldametal.com/</a></li> 
                                 <li>Hosteleria: <a  class="list-link" href="https://hosteleriamaquinaria.es/" target="_blank" >https://hosteleriamaquinaria.es/</a></li> 
+                                <li>Comercializadora: <a  class="list-link" href="https://comercializadoraambul.com/" target="_blank" >https://comercializadoraambul.com/</a></li> 
                             </ul> 
                           
                         </v-card-text>  

@@ -8,10 +8,10 @@
                 :rotate="90"
                 :size="100"
                 :width="15"
-                :value="valueProgress-10"
+                :value="valueProgress-5"
                 color="red"
                 >
-                {{ valueProgress-10 }}%
+                {{ valueProgress-5 }}%
                 </v-progress-circular>
                 <p>React.js, Next.js & TypeScript</p>
               </v-flex>  
@@ -82,10 +82,10 @@
                 :rotate="180"
                 :size="100"
                 :width="15"
-                :value="valueProgress-20"
+                :value="valueProgress-10"
                 color="lime darken-1"
                 >
-                {{ valueProgress-20 }}%
+                {{ valueProgress-10 }}%
                 </v-progress-circular>  
                 <p>React + Inertia + Laravel + Api & Vue</p>
               </v-flex> 

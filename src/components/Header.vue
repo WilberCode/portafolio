@@ -17,8 +17,8 @@
             <transition   name="custom-classes-transition"
               enter-active-class="animated tada"
               leave-active-class="animated bounceOutRight"> 
-              <ul class="menu " id="menu">
-                <li class="menu-item" v-for="link in links "  :key="link.title"><a color="white"  @click="$vuetify.goTo(`#${link.hash}`, options)">{{ link.title }}</a></li>
+              <ul class="menu " id="menu" @click="openMenu">
+                <li class="menu-item" v-for="link in links "  :key="link.title"><a color="white"  @click.prevent="scrollToSection(`#${link.hash}`)">{{ link.title }}</a></li>
               </ul> 
           </transition>
         </div>
@@ -30,21 +30,37 @@
 <script>
 //  import * as easings from 'vuetify/es5/components/Vuetify/goTo/easing-patterns' ; 
 export default {
+ /*  @click="$vuetify.goTo(`#${link.hash}`, options)" */
     data(){
+   
+
         return{
             links: [
                 {title:'Acerca de mi', hash:'Acercademi'},
-                {title:'Conocimientos', hash:'Conocimientos'},
-                {title:'Experencias', hash:'Experencias'},
-                {title:'Casos de Exito', hash:'Casosdeexito'},
+                {title:'Experencia', hash:'experencia'},
+                {title:'Proyectos', hash:'proyectos'},
+                {title:'Conocimientos', hash:'conocimientos'},
                 {title:'Contactos', hash:'Contactos'}
             ] 
         }
     },
     methods: { 
         openMenu(){
-        document.getElementById('menu-wrap').classList.toggle('hidden-sm-and-down')  
-        document.getElementById('toggle').classList.toggle('open')  
+          document.getElementById('menu-wrap').classList.toggle('hidden-sm-and-down')  
+          document.getElementById('toggle').classList.toggle('open')   
+        },
+        scrollToSection(hash) {
+          let target = document.querySelector(hash);
+          if (target) {
+            let scrollTop = (target.offsetTop) - 160;
+            if (document.body.classList.contains('home')) {
+              scrollTop = scrollTop > 0 ? scrollTop : 0;
+            }
+            window.scrollTo({
+              top: scrollTop,
+              behavior: 'smooth'
+            });
+            }
         }
 
     },
@@ -69,8 +85,14 @@ export default {
         }
     }
 }
+
 </script>
 <style  lang="scss"  > 
+
+
+:target{
+  transform: translateY(200px);
+}
 $md: 959px;  
 .sticky-active{
     position: fixed ;

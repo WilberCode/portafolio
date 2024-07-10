@@ -10,10 +10,10 @@
                 :rotate="180"
                 :size="100"
                 :width="15"
-                :value="valueProgress-5"
+                :value="valueProgress"
                 color="pink"
                 >
-                {{ valueProgress-5 }}%
+                {{ valueProgress }}%
                 </v-progress-circular>  
                 <p>Wordpress, CPT, ACF, Api Rest, Elementor, Themes, Plugins & WooCommerce</p>
               </v-flex>   
@@ -23,10 +23,10 @@
                 :rotate="180"
                 :size="100"
                 :width="15"
-                :value="valueProgress-10"
+                :value="valueProgress-5"
                 color="blue lighten-1"
                 >
-                {{ valueProgress-10 }}%
+                {{ valueProgress-5 }}%
                 </v-progress-circular>  
                 <p>PHP, Laravel, Livewire, Alpine & Filament </p>
               </v-flex> 
