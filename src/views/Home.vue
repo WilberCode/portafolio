@@ -25,7 +25,7 @@
     <Footer/> 
 </div>
 </template>
-
+ 
  
 <script>
 
