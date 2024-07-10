@@ -15,7 +15,7 @@
                 >
                 {{ valueProgress }}%
                 </v-progress-circular>  
-                <p>Wordpress, CPT, ACF, Api Rest, Elementor, Themes, Plugins & WooCommerce</p>
+                <p>Wordpress, CPT, ACF, Api Rest, Elementor, Themes, Plugins, WooCommerce & SEO</p>
               </v-flex>   
               
               <v-flex xs12 sm6 md4 lg3 xl3>  
