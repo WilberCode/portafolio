@@ -6,14 +6,15 @@
       <div class="banner-bio">
         <h2>¡Hola! Soy Wilber.</h2>
         <p>
-          Un desarrollador web con 4 años de experiencia en el maravilloso mundo de WordPress. Aunque amo WordPress, estoy listo para un nuevo desafío y quiero sumergirme en el universo de <strong>REACT</strong> como Desarrollador.
-        <br> <br>
-          Me encanta aprender nuevas tecnologías y adaptarme a las necesidades del proyecto. He estado trabajando en mejorar mis habilidades en REACT y NEXT, y estoy emocionado por la oportunidad de contribuir a un equipo donde pueda crecer y aportar con mi pasión por el desarrollo web. ¡Estoy listo para esta nueva aventura!
+          Un desarrollador web con más de 4 años de experiencia, durante los cuales he trabajado en diversos proyectos que me han permitido adquirir habilidades sólidas en el desarrollo web.
 
+
+          <br> <br>
+          Me apasiona aprender nuevas tecnologías y adaptarme a las necesidades de cada proyecto. Durante los últimos 2 años, he estado mejorando mis habilidades en React y Next.js, y estoy emocionado por la oportunidad de unirme a un equipo donde pueda crecer y contribuir con mi entusiasmo por el desarrollo web. ¡Estoy listo para esta nueva aventura!
         </p>
        </div>
        
-      <v-btn class="banner-btn large fill-bg  "  round color="secondary"   data-aos="fade-up" outline  data-aos-offset="200" data-aos-delay="800"  data-aos-once="true" href="https://drive.google.com/file/d/1_UhUSBTwYFE0t8eqjyy2rh81qGKtUBGg/view" target="_blank"   >Descargar CV </v-btn>
+      <v-btn class="banner-btn large fill-bg  "  round color="secondary"   data-aos="fade-up" outline  data-aos-offset="200" data-aos-delay="800"  data-aos-once="true" href="https://drive.google.com/file/d/1EnkFI5bNy3xDuc7X0HfM6_TZVtOiFjMd/view" target="_blank"   >Descargar CV </v-btn>
       <v-btn class="banner-btn  large banner-btn--whatsapp"   round  color="secondary"    outline data-aos="fade-up"  data-aos-offset="200" data-aos-delay="1200" data-aos-once="true" href="https://api.whatsapp.com/send?phone=51938343796&text=Hola" target="_blank" > WhatsApp </v-btn>
       <div class="banner-avatar d-inline-flex py-3 px-4" outline data-aos="fade-up"  data-aos-offset="200" data-aos-delay="1500"  >
         <div  class="banner-avatar-image" >

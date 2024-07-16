@@ -4,7 +4,7 @@
           
             <v-timeline-item   color="primary lighten-1 experencie"  fill-dot 
                 large   >
-                <template v-slot:icon  color="red"  >
+                <template v-slot:icon  color="red"   >
                     <v-avatar  >
                     <img :src="require('../assets/tendenzelogo.png')"  >
                     </v-avatar>
@@ -16,7 +16,7 @@
                 <v-card color="white lighten-1 pt-4 experencie-card "
                     dark 
                 >
-                    <v-card-title class="title primary px-5 py-2  experencie-title line-left  "   >Grupo Tendenze Comunicaciones</v-card-title>
+                    <v-card-title class="title primary px-5 py-2  experencie-title line-left  "   > Grupo Tendenze Comunicaciones</v-card-title>
                         <v-card-text class="white text--primary">
                              <h2 class="black--text subtitle-span ">Cargo: <span>Desarrollador Web - Remoto 🔴🖥️</span></h2> 
                                <!--   <h2 class="black--text mt-3 " >Funciones:</h2  >  
@@ -96,7 +96,7 @@
                         </v-card-text>  
                     </v-card>
             </v-timeline-item>
-            <v-timeline-item   color="primary lighten-1 experencie" fill-dot 
+            <v-timeline-item  color="primary lighten-1 experencie" fill-dot 
                 large  data-aos="fade-up"  data-aos-offset="200"  data-aos-once="true" >
                 <template v-slot:icon>
                     <v-avatar>
@@ -139,7 +139,7 @@
                 </v-avatar>
             </template>
             <template v-slot:opposite  align-start >
-                <span >Mayo 2022 - Julio 2022 ✔️</span>
+                <span   >Mayo 2022 - Julio 2022 ✔️</span>
             </template>
 
             <v-card color="white lighten-1 pt-4 experencie-card "

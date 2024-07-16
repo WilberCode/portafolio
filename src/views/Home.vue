@@ -74,7 +74,7 @@ h1,h2,h3,h4,h5 {
 * i{ font-family: 'Material Icons' !important; }
 .morphsvg{ 
     width:100%;
-    height:740px;
+    height:700px;
     position:absolute;  
     top:0;
     left:0;
