@@ -50,7 +50,7 @@
                 >
                 {{ valueProgress-5 }}%
                 </v-progress-circular>
-                <p>JavaScript, JQuery & Redux</p> 
+                <p>JavaScript, JQuery, Redux, Vite, npm & yarn</p> 
               </v-flex> 
          
               <v-flex xs12 sm6 md4 lg3 xl3>  

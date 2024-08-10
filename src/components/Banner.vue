@@ -6,18 +6,15 @@
       <div class="banner-bio">
         <h2>¡Hola! Soy Wilber.</h2>
         <p>
-          Un desarrollador web con más de 4 años de experiencia, durante los cuales he trabajado en diversos proyectos que me han permitido adquirir habilidades sólidas en el desarrollo web.
-
-
+          Desarrollador fullstack con más de 1 año de experiencia en el desarrollo de aplicaciones web utilizando React. Con conocimientos sólidos tanto en el frontend como en el backend, capaz de diseñar, desarrollar y mantener aplicaciones completas, desde la interfaz de usuario hasta la integración con bases de datos y APIs.
+ 
           <br> <br>
-          Durante los últimos 2 años, he trabajado y mejorado mis habilidades en React y Next.js como junior
-fullstack, y estoy emocionado por la oportunidad de unirme a un equipo donde pueda crecer y contribuir
-con mi entusiasmo por el desarrollo web.        </p>
+          Además, soy desarrollador fullstack con más de 4 años de experiencia en WordPress, WooCommerce, Shopify y optimización SEO.      </p>
        </div>
        
       <v-btn class="banner-btn large fill-bg  "  round color="secondary"   data-aos="fade-up" outline  data-aos-offset="200" data-aos-delay="800"  data-aos-once="true" href="https://drive.google.com/file/d/1xmE5Q_liXJagiMTKDCxeKj91iveHa8yy/view" target="_blank"   >Descargar CV </v-btn>
       <v-btn class="banner-btn  large banner-btn--whatsapp"   round  color="secondary"    outline data-aos="fade-up"  data-aos-offset="200" data-aos-delay="1200" data-aos-once="true" href="https://api.whatsapp.com/send?phone=51938343796&text=Hola" target="_blank" > WhatsApp </v-btn>
-      <div class="banner-avatar d-inline-flex py-3 px-4" outline data-aos="fade-up"  data-aos-offset="200" data-aos-delay="1500"  >
+      <div class="banner-avatar d-inline-flex py-3 px-4 mt-5" outline data-aos="fade-up"  data-aos-offset="200" data-aos-delay="1500"  >
         <div  class="banner-avatar-image" >
           <img  class=" " src="../assets/wilberpariona.jpg" alt="Github"> 
               <v-btn class="mx-2 social-icon  " href="https://github.com/WilberCode" target="_blank" >

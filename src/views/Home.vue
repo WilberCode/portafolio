@@ -9,7 +9,20 @@
       <v-container >
          <v-layout row wrap>
            <v-flex xs12>  
-            
+            <v-layout row wrap>
+                <v-flex xs12>  
+                 <div class="recursos">
+
+                  <h2>  Capacidades Técnicas y Disponibilidad </h2> <br>
+                  <h3>  Recursos Técnicos: </h3>
+                  <p>Cuento con un equipo de cómputo robusto y una conexión a internet estable,<br class="hidden-sm-and-down">
+                    asegurando así un trabajo eficiente y una comunicación fluida en todo momento.</p>
+                  <h3>  Disponibilidad: </h3> 
+                  <p>Estoy siempre disponible para ofrecer soluciones rápidas cuando surjan problemas,<br class="hidden-sm-and-down">
+                    garantizando la continuidad y eficiencia de los proyectos.</p>
+                 </div>
+                </v-flex>
+            </v-layout>
             <h2 id="experencia" class="text-xs-center mt-5 mb-4" >Experencias</h2>
             <Experencies/>
              <h2 id="proyectos" class="text-xs-center mt-5 mb-4">Páginas desarrolladas</h2>
@@ -54,6 +67,9 @@ import KnowledgeSecondary from '../components/KnowledgeSecondary.vue'
  
 </script> 
 <style lang="scss">  
+.recursos{
+  margin-top:-70px;
+}
 // Breakpoints  
 :root{ 
 --xl: 1904px;
@@ -74,7 +90,7 @@ h1,h2,h3,h4,h5 {
 * i{ font-family: 'Material Icons' !important; }
 .morphsvg{ 
     width:100%;
-    height:700px;
+    height:750px;
     position:absolute;  
     top:0;
     left:0;
