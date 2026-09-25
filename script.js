@@ -30,14 +30,23 @@ if (carousel) {
     const frag = document.createDocumentFragment();
     const cards = [];
 
+    // Clones exist only for the infinite loop effect: hide them from
+    // screen readers and keyboard so each project is announced once.
+    const makeClone = (card) => {
+      const c = card.cloneNode(true);
+      c.setAttribute('aria-hidden', 'true');
+      c.querySelectorAll('a, button').forEach(el => el.setAttribute('tabindex', '-1'));
+      return c;
+    };
+
     for (let i = 0; i < N; i++) {
-      const c = originals[i].cloneNode(true);
+      const c = makeClone(originals[i]);
       frag.appendChild(c);
       cards.push(c);
     }
     originals.forEach(c => { frag.appendChild(c); cards.push(c); });
     for (let i = 0; i < N; i++) {
-      const c = originals[i].cloneNode(true);
+      const c = makeClone(originals[i]);
       frag.appendChild(c);
       cards.push(c);
     }
