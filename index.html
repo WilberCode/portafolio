@@ -5,19 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Wilber Pariona, desarrollador Full Stack con más de 7 años de experiencia en e-commerce, aplicaciones modernas, desarrollo con Claude Code y Spec-Driven Development (SDD)."
+      content="Desarrollador Web  con más de 7 años de experiencia creando sitios web, aplicaciones a medida y e-commerce con WordPress, WooCommerce, Shopify, PHP, Laravel y React."
     />
-    <title>Wilber Pariona | Desarrollador Full Stack</title>
-    <link rel="canonical" href="https://wilbercode.github.io/portafolio/" />
+    <title>Wilber Pariona | Desarrollador Web </title>
+    <link rel="canonical" href="https://wilbercode.github.io/wordpress/" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_PE" />
-    <meta property="og:url" content="https://wilbercode.github.io/portafolio/" />
-    <meta property="og:title" content="Wilber Pariona | Desarrollador Full Stack" />
+    <meta property="og:url" content="https://wilbercode.github.io/wordpress/" />
+    <meta property="og:title" content="Wilber Pariona | Desarrollador Web " />
     <meta
       property="og:description"
-      content="Desarrollo e-commerce con Shopify y WooCommerce, aplicaciones con Laravel y React, con Claude Code y Spec-Driven Development (SDD)."
+      content="Sitios web, aplicaciones web, e-commerce y soluciones a medida. 7 años de experiencia con WordPress, WooCommerce, Shopify, PHP, Laravel, React y desarrollo asistido por IA."
     />
-    <meta property="og:image" content="https://wilbercode.github.io/portafolio/img/brands/avatar.jpg" />
+    <meta property="og:image" content="https://wilbercode.github.io/wordpress/img/brands/avatar.jpg" />
     <meta name="twitter:card" content="summary" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -41,45 +41,66 @@
       </button>
 
       <nav class="nav" data-nav aria-label="Navegación principal">
-        <a href="#inicio">Inicio</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#proyectos">Proyectos</a>
-        <a href="#experiencia">Experiencia</a> 
-        <a href="#contacto">Contacto</a>
+        <a href="#inicio" data-en="Home">Inicio</a>
+        <a href="#servicios" data-en="Services">Servicios</a>
+        <a href="#tecnologias" data-en="Technologies">Tecnologías</a>
+        <a href="#proyectos" data-en="Projects">Proyectos</a>
+        <a href="#experiencia" data-en="Experience">Experiencia</a>
+        <a href="#contacto" data-en="Contact">Contacto</a>
       </nav>
     </header>
+
+    <button class="lang-toggle" type="button" data-lang-toggle aria-label="Cambiar idioma">
+      <span data-lang-label="es">ES</span>
+      <span data-lang-label="en">EN</span>
+    </button>
 
     <main>
       <section class="hero section" id="inicio">
         <div class="hero-copy reveal">
-          <p class="eyebrow">Hola, soy Wilber</p>
-          <h1>Desarrollador Full Stack</h1>
-          <p class="hero-description">
-            Con más de 7 años de experiencia, desarrollo e-commerce con Shopify y WooCommerce + Wordpress, aplicaciones web con Laravel y React,
-            y landing pages modernas y optimizadas. Trabajo con Claude Code como agente de desarrollo
-            y planifico cada cambio con Spec-Driven Development (SDD) para entregar más rápido
-            sin perder calidad.
+          <p class="eyebrow" data-en="Hi, I'm Wilber">Hola, soy Wilber</p>
+          <h1 data-en=" Web Developer">Desarrollador Web </h1>
+          <p class="hero-tagline" data-en="Websites · Web Applications · E-commerce · Custom Solutions">Sitios Web · Aplicaciones Web · E-commerce · Soluciones a Medida</p>
+          <p class="hero-description" data-en="I am a web developer with over 7 years of experience building corporate websites, online stores and web applications tailored to different needs.">
+            Soy desarrollador web con más de 8 años de experiencia creando sitios corporativos, tiendas online
+            y aplicaciones web adaptadas a diferentes necesidades.
+          </p>
+          <p class="hero-description" data-en="I work with WordPress, WooCommerce, Shopify, PHP, Laravel, React and JavaScript, from building responsive interfaces to developing features, integrations and custom solutions.">
+            Trabajo con WordPress, WooCommerce, Shopify, PHP, Laravel, React y JavaScript, desde la creación de
+            interfaces responsive hasta el desarrollo de funcionalidades, integraciones y soluciones personalizadas.
+          </p>
+          <p class="hero-description" data-en="My experience covers implementation, optimization, troubleshooting and deployment of projects on servers. I also leverage artificial intelligence tools to speed up tasks and improve code, keeping technical quality high.">
+            Mi experiencia abarca la implementación, optimización, resolución de problemas y despliegue de
+            proyectos en servidores. Además, aprovecho herramientas de inteligencia artificial para agilizar
+            tareas y mejorar el código, manteniendo la calidad técnica.
           </p>
 
           <div class="tech-strip" aria-label="Tecnologías principales">
-            <span>Shopify</span>
-            <span>WooCommerce</span>
             <span>WordPress</span>
+            <span>WooCommerce</span>
+            <span>Shopify</span>
+            <span>PHP</span>
             <span>Laravel</span>
             <span>React</span>
-            <span>Next.js</span>
-            <span>AWS</span>
+            <span>JavaScript</span>
+            <span>MySQL</span>
             <span>Docker</span>
-            <span>Claude Code</span>
-            <span>SDD</span>
+            <span>VPS</span>
+            <span>Git</span>
           </div>
 
           <div class="hero-actions">
-            <a class="btn btn-primary" href="https://drive.google.com/uc?export=download&amp;id=1eH_CSkmiLi2w8QUdI-cTv24ydvChswZL" target="_blank" rel="noopener">Descargar CV</a>
-            <a class="btn btn-secondary" href="https://wa.me/51926776516" target="_blank" rel="noreferrer">
-              WhatsApp
-            </a>
+            <a class="btn btn-primary" href="#proyectos" data-en="View projects">Ver proyectos</a>
+            <a class="btn btn-secondary" href="https://drive.google.com/uc?export=download&amp;id=1eH_CSkmiLi2w8QUdI-cTv24ydvChswZL" target="_blank" rel="noopener" data-en="Download CV">Descargar CV</a>
+            <a class="btn btn-secondary" href="https://api.whatsapp.com/send/?phone=51926776516" data-en="Contact">Contactar</a>
           </div>
+
+          <ul class="hero-signals" aria-label="Disponibilidad y datos de contacto">
+            <li><span class="signal-dot" aria-hidden="true"></span><span data-en="Available for work">Disponible para trabajar</span></li>
+            <li data-en="Remote · Full-time / Part-time">Remoto · Full-time / Part-time</li>
+            <li>Andahuaylas, Apurímac, Perú (UTC-5)</li>
+            <li data-en="Native Spanish · Technical English">Español nativo · Inglés técnico</li>
+          </ul>
         </div>
 
         <div class="hero-visual reveal" aria-label="Tecnologías y herramientas">
@@ -96,19 +117,19 @@
               <span class="orbit-icon" style="--bg:#fff;">
                 <img src="img/brands/shopify.png" alt="Shopify" style="width:75%;height:75%;object-fit:contain;border-radius:10%;display:block;" />
               </span>
-              <span class="orbit-label">Tiendas Shopify</span>
+              <span class="orbit-label" data-en="Shopify Stores">Tiendas Shopify</span>
             </span>
             <span class="orbit-mount" data-a="90" data-r="200" data-dir="1" data-d="2.9s" data-period="35">
               <span class="orbit-icon" style="--bg:#fff;">
                 <img src="img/brands/wordpress.png" alt="WordPress" style="width:75%;height:75%;object-fit:contain;border-radius:10%;display:block;" />
               </span>
-              <span class="orbit-label">Sitios WordPress</span>
+              <span class="orbit-label" data-en="WordPress Sites">Sitios WordPress</span>
             </span>
             <span class="orbit-mount" data-a="180" data-r="200" data-dir="1" data-d="8.7s" data-period="35">
               <span class="orbit-icon" style="--bg:#fff;">
                 <img src="img/brands/react.png" alt="React" style="width:75%;height:75%;object-fit:contain;border-radius:10%;display:block;" />
               </span>
-              <span class="orbit-label">Frontend Moderno</span>
+              <span class="orbit-label" data-en="Modern Frontend">Frontend Moderno</span>
             </span>
             <span class="orbit-mount" data-a="270" data-r="200" data-dir="1" data-d="14.5s" data-period="35">
               <span class="orbit-icon" style="--bg:#fff;">
@@ -120,7 +141,7 @@
               <span class="orbit-icon" style="--bg:#fff;">
                 <img src="img/brands/woo.png" alt="WooCommerce" style="width:75%;height:75%;object-fit:contain;border-radius:10%;display:block;" />
               </span>
-              <span class="orbit-label">Tienda Online</span>
+              <span class="orbit-label" data-en="Online Store">Tienda Online</span>
             </span>
             <span class="orbit-mount" data-a="150" data-r="135" data-dir="1" data-d="11.6s" data-period="25">
               <span class="orbit-icon" style="--bg:#fff;">
@@ -132,13 +153,13 @@
               <span class="orbit-icon" style="--bg:#141414;">
                 <img src="img/brands/ia.png" alt="IA" style="width:75%;height:75%;object-fit:contain;border-radius:10%;display:block;" />
               </span>
-              <span class="orbit-label">IA aplicada</span>
+              <span class="orbit-label" data-en="Applied AI">IA aplicada</span>
             </span>
             <span class="orbit-mount" data-a="90" data-r="135" data-dir="1" data-d="23.2s" data-period="25">
               <span class="orbit-icon" style="--bg:#fff;">
                 <img src="img/brands/uxui.png" alt="UX/UI" style="width:75%;height:75%;object-fit:contain;border-radius:10%;display:block;" />
               </span>
-              <span class="orbit-label">Experiencia Digital</span>
+              <span class="orbit-label" data-en="Digital Experience">Experiencia Digital</span>
             </span>
             <span class="orbit-mount" data-a="45" data-r="160" data-dir="1" data-d="20.3s" data-period="40">
               <span class="orbit-icon" style="--bg:#fff;">
@@ -150,19 +171,19 @@
               <span class="orbit-icon" style="--bg:#0e0e0e;">
                 <img src="img/brands/opencode.jpg" alt="OpenCode" style="width:75%;height:75%;object-fit:contain;border-radius:10%;display:block;" />
               </span>
-              <span class="orbit-label">Agentes de código</span>
+              <span class="orbit-label" data-en="Code Agents">Agentes de código</span>
             </span>
             <span class="orbit-mount" data-a="180" data-r="175" data-dir="1" data-d="26.1s" data-period="30">
               <span class="orbit-icon" style="--bg:#fff;">
                 <img src="img/brands/aws.png" alt="AWS" style="width:75%;height:75%;object-fit:contain;border-radius:10%;display:block;" />
               </span>
-              <span class="orbit-label">Cloud Escalable</span>
+              <span class="orbit-label" data-en="Scalable Cloud">Cloud Escalable</span>
             </span>
             <span class="orbit-mount" data-a="90" data-r="175" data-dir="1" data-d="29s" data-period="30">
               <span class="orbit-icon" style="--bg:#fff;">
                 <img src="img/brands/docker.png" alt="Docker" style="width:75%;height:75%;object-fit:contain;border-radius:10%;display:block;" />
               </span>
-              <span class="orbit-label">DevOps Moderno</span>
+              <span class="orbit-label" data-en="Modern DevOps">DevOps Moderno</span>
             </span>
           </div>
         </div>
@@ -170,170 +191,237 @@
 
       <section class="section" id="servicios">
         <div class="section-heading reveal">
-          <p class="eyebrow">Servicios</p>
-          <h2>Desarrollo Full Stack + IA</h2>
-          <p>Soluciones modernas para e-commerce, automatización y productos digitales, construidas con Claude Code y un proceso guiado por especificaciones.</p>
+          <p class="eyebrow" data-en="Services">Servicios</p>
+          <h2 data-en="Web Development Services">Servicios de Desarrollo Web</h2>
+          <p data-en="Websites, custom applications, e-commerce, integrations, support and AI-assisted development.">Sitios web, aplicaciones a medida, e-commerce, integraciones, soporte y desarrollo asistido por IA.</p>
         </div>
 
         <div class="ai-grid">
           <article class="feature-card reveal">
             <span class="icon">01</span>
-            <h3>E-commerce &amp; Tiendas Online</h3>
-            <p>Desarrollo de tiendas online modernas con Shopify y WooCommerce, optimizadas para ventas, experiencia de usuario y escalabilidad.</p>
+            <h3 data-en="Websites &amp; Landing Pages">Sitios Web y Landing Pages</h3>
+            <p data-en="I build corporate websites, informational pages and landing pages with WordPress, Elementor, HTML, CSS and JavaScript. I implement Figma designs with responsive interfaces, good user experience and optimized performance.">
+              Creo sitios corporativos, páginas informativas y landing pages con WordPress, Elementor, HTML, CSS y
+              JavaScript. Implemento diseños de Figma con interfaces responsive, buena experiencia de usuario y
+              rendimiento optimizado.
+            </p>
           </article>
           <article class="feature-card reveal">
             <span class="icon">02</span>
-            <h3>Plugins &amp; Sistemas Personalizados</h3>
-            <p>Creación de plugins, paneles administrativos y herramientas a medida para automatizar procesos y ampliar funcionalidades.</p>
+            <h3 data-en="Custom Web Applications">Aplicaciones Web a Medida</h3>
+            <p data-en="I develop custom applications and systems with PHP, Laravel, React and Vue. I build admin panels, specific features, APIs and databases based on each project's needs.">
+              Desarrollo aplicaciones y sistemas personalizados con PHP, Laravel, React y Vue. Implemento paneles
+              administrativos, funcionalidades específicas, APIs y bases de datos según las necesidades del
+              proyecto.
+            </p>
           </article>
           <article class="feature-card reveal">
             <span class="icon">03</span>
-            <h3>Automatización con IA</h3>
-            <p>Integración de IA para asistentes, generación de contenido, automatización de tareas y optimización de flujos digitales.</p>
+            <h3 data-en="E-commerce &amp; Online Stores">E-commerce y Tiendas Online</h3>
+            <p data-en="I implement and customize stores with WooCommerce and Shopify, including catalogs, checkout processes, payment gateways, shipping methods and commercial integrations.">
+              Implemento y personalizo tiendas con WooCommerce y Shopify, incluyendo catálogos, procesos de compra,
+              pasarelas de pago, métodos de envío e integraciones comerciales.
+            </p>
           </article>
           <article class="feature-card reveal">
             <span class="icon">04</span>
-            <h3>Landing Pages &amp; Aplicaciones Web</h3>
-            <p>Diseño y desarrollo de landings modernas y aplicaciones web rápidas, limpias y enfocadas en impacto visual y conversión.</p>
+            <h3 data-en="Features &amp; Integrations">Funcionalidades e Integraciones</h3>
+            <p data-en="I create custom plugins, modules, automations and tools. I integrate APIs and external services to extend what websites and web applications can do.">
+              Creo plugins, módulos, automatizaciones y herramientas a medida. Integro APIs y servicios externos
+              para ampliar las capacidades de sitios y aplicaciones web.
+            </p>
           </article>
           <article class="feature-card reveal">
             <span class="icon">05</span>
-            <h3>Desarrollo con Claude Code</h3>
-            <p>Uso Claude Code como agente de desarrollo para explorar código, implementar funcionalidades, escribir tests y refactorizar, siempre con revisión y criterio técnico propio.</p>
+            <h3 data-en="Optimization &amp; Technical Support">Optimización y Soporte Técnico</h3>
+            <p data-en="I diagnose and fix code, database and server issues. I handle migrations, deployments, maintenance and performance improvements to keep projects stable and secure.">
+              Diagnostico y soluciono errores de código, bases de datos y servidores. Realizo migraciones,
+              despliegues, mantenimiento y mejoras de rendimiento para mantener proyectos estables y seguros.
+            </p>
           </article>
           <article class="feature-card reveal">
             <span class="icon">06</span>
-            <h3>Spec-Driven Development (SDD)</h3>
-            <p>Planifico cada cambio con propuesta, especificación, diseño y tareas antes de escribir código, y verifico la implementación contra la especificación.</p>
+            <h3 data-en="AI-Assisted Development">Desarrollo Asistido por IA</h3>
+            <p data-en="I leverage artificial intelligence tools to speed up feature implementation, refactoring, debugging and testing. I apply Spec-Driven Development (SDD) to plan and validate solutions with technical supervision.">
+              Aprovecho herramientas de inteligencia artificial para agilizar la implementación de
+              funcionalidades, refactorización, depuración y pruebas. Aplico Spec-Driven Development (SDD) para
+              planificar y validar soluciones con supervisión técnica.
+            </p>
+            <div class="tech-list">
+              <span>Claude Code</span>
+              <span>OpenCode</span>
+              <span>Google Antigravity</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="tecnologias">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Stack</p>
+          <h2 data-en="Technologies">Tecnologías</h2>
+          <p data-en="Grouped by area so you can quickly see the areas I work in.">Agrupadas por área para que identifiques rápido las áreas en las que trabajo.</p>
+        </div>
+
+        <div class="tech-grid">
+          <article class="tech-card reveal">
+            <h3 data-en="Web Development &amp; CMS">Desarrollo web y CMS</h3>
+            <div class="tech-list">
+              <span>WordPress</span>
+              <span>Elementor</span>
+            </div>
+          </article>
+          <article class="tech-card reveal">
+            <h3>E-commerce</h3>
+            <div class="tech-list">
+              <span>WooCommerce</span>
+              <span>Shopify</span>
+            </div>
+          </article>
+          <article class="tech-card reveal">
+            <h3>Frontend</h3>
+            <div class="tech-list">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>React</span>
+              <span>Vue</span>
+              <span>Tailwind CSS</span>
+            </div>
+          </article>
+          <article class="tech-card reveal">
+            <h3>Backend</h3>
+            <div class="tech-list">
+              <span>PHP</span>
+              <span>Laravel</span>
+              <span>REST API</span>
+            </div>
+          </article>
+          <article class="tech-card reveal">
+            <h3 data-en="Databases">Bases de datos</h3>
+            <div class="tech-list">
+              <span>MySQL</span>
+              <span>MongoDB</span>
+            </div>
+          </article>
+          <article class="tech-card reveal">
+            <h3 data-en="Version Control">Control de versiones</h3>
+            <div class="tech-list">
+              <span>Git</span>
+              <span>GitHub</span>
+            </div>
+          </article>
+          <article class="tech-card reveal">
+            <h3>Infraestructura</h3>
+            <div class="tech-list">
+              <span>Docker</span>
+              <span>Linux</span>
+              <span>VPS</span>
+              <span>cPanel</span>
+            </div>
+          </article>
+          <article class="tech-card reveal">
+            <h3 data-en="Design &amp; Optimization">Diseño y optimización</h3>
+            <div class="tech-list">
+              <span>Figma</span>
+              <span>UX/UI</span>
+              <span>Responsive Design</span>
+              <span data-en="Technical SEO">SEO técnico</span>
+            </div>
+          </article>
+          <article class="tech-card reveal">
+            <h3 data-en="Artificial Intelligence">Inteligencia artificial</h3>
+            <div class="tech-list">
+              <span>Claude Code</span>
+              <span>OpenCode</span>
+              <span>Google Antigravity</span>
+              <span data-en="Spec-Driven Development (SDD)">Spec-Driven Development (SDD)</span>
+            </div>
           </article>
         </div>
       </section>
 
       <section class="section projects-section" id="proyectos">
         <div class="section-heading reveal">
-          <p class="eyebrow">Trabajo visual</p>
-          <h2>Proyectos</h2>
-          <p>E-commerce, landings, páginas web y sistemas desarrollados.</p>
+          <p class="eyebrow" data-en="Selected work">Trabajo visual</p>
+          <h2 data-en="Projects">Proyectos</h2>
+          <p data-en="E-commerce, landing pages, websites and systems I have developed.">E-commerce, landings, páginas web y sistemas desarrollados.</p>
+        </div>
+
+        <div class="stats-grid reveal">
+          <div class="stat-item">
+            <span class="stat-number" data-target="30">+0</span>
+            <span class="stat-label" data-en="Websites developed">Sitios web desarrollados</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="20">+0</span>
+            <span class="stat-label" data-en="E-commerce in production">E-commerce en producción</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="20">+0</span>
+            <span class="stat-label" data-en="Speed-optimized sites">Sitios optimizados en velocidad</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="20">+0</span>
+            <span class="stat-label" data-en="Sites with optimized SEO">Sitios con SEO optimizado</span>
+          </div>
         </div>
 
         <div class="carousel reveal" data-carousel>
           <button class="carousel-btn" type="button" aria-label="Proyecto anterior" data-prev>‹</button>
           <div class="carousel-track" data-track>
-            <article class="project-card">
-              <div class="project-preview"><img src="img/projects/wayu.png" alt="Captura del sitio Wayu Cocina" loading="lazy" decoding="async" /></div>
-              <div class="project-content">
-                <p>Shopify • E-commerce</p>
-                <h3>Wayu Cocina</h3>
-                <span>E-commerce de utensilios para cocina y parrilla con experiencia de compra fluida.</span>
-                <a href="https://wayu.com.pe/" target="_blank" rel="noopener">Ver proyecto</a>
-              </div>
-            </article>
-            <article class="project-card">
-              <div class="project-preview"><img src="img/projects/euroderma.png" alt="Captura del sitio Euroderma" loading="lazy" decoding="async" /></div>
-              <div class="project-content">
-                <p>Shopify • E-commerce</p>
-                <h3>Euroderma</h3>
-                <span>E-commerce de dermocosmética con catálogo, blog y experiencia de compra profesional.</span>
-                <a href="https://euroderma.pe/" target="_blank" rel="noopener">Ver proyecto</a>
-              </div>
-            </article>
-            <article class="project-card">
-              <div class="project-preview"><img src="img/projects/invoga.png" alt="Captura del sitio Invoga" loading="lazy" decoding="async" /></div>
-              <div class="project-content">
-                <p>Shopify • E-commerce</p>
-                <h3>Invoga</h3>
-                <span>Tienda online de cases y accesorios para iPhone con experiencia de compra optimizada.</span>
-                <a href="https://invogastore.com/" target="_blank" rel="noopener">Ver proyecto</a>
-              </div>
-            </article>
-            <article class="project-card">
-              <div class="project-preview"><img src="img/projects/roa.png" alt="Captura del sitio Academia ROA" loading="lazy" decoding="async" /></div>
-              <div class="project-content">
-                <p>WordPress • WooCommerce</p>
-                <h3>Academia ROA</h3>
-                <span>Academia de cursos presenciales de Rehabilitación Oral Adhesiva en Lima, Perú.</span>
-                <a href="https://academiaroa.com/" target="_blank" rel="noopener">Ver proyecto</a>
-              </div>
-            </article>
-            <article class="project-card">
-              <div class="project-preview"><img src="img/projects/nlandes.png" alt="Captura del sitio NLAndes" loading="lazy" decoding="async" /></div>
-              <div class="project-content">
-                <p>WordPress • Corporativo</p>
-                <h3>NLAndes</h3>
-                <span>Cámara de Comercio Peruano Neerlandesa: membresías, consultorías y comercio bilateral.</span>
-                <a href="https://www.nlandes.com/" target="_blank" rel="noopener">Ver proyecto</a>
-              </div>
-            </article>
-            <article class="project-card">
+             <article class="project-card">
               <div class="project-preview"><img src="img/projects/daryza.png" alt="Captura del sitio Daryza" loading="lazy" decoding="async" /></div>
               <div class="project-content">
                 <p>WordPress • WooCommerce</p>
                 <h3>Daryza</h3>
-                <span>Tienda online de productos de limpieza con envío a domicilio en Lima, Perú.</span>
-                <a href="https://daryza.com/" target="_blank" rel="noopener">Ver proyecto</a>
+                <span data-en="Online store for cleaning products with home delivery in Lima, Peru.">Tienda online de productos de limpieza con envío a domicilio en Lima, Perú.</span>
+                <a href="https://daryza.com/" target="_blank" rel="noopener" data-en="View project">Ver proyecto</a>
               </div>
             </article>
-            <article class="project-card">
-              <div class="project-preview"><img src="img/projects/lumilu.png" alt="Captura del sitio Lumilu Perú" loading="lazy" decoding="async" /></div>
-              <div class="project-content">
-                <p>Shopify • E-commerce</p>
-                <h3>Lumilu Perú</h3>
-                <span>Tienda online de lactancia, belleza y salud con marcas como Pigeon, Bio Oil y Omron.</span>
-                <a href="https://lumiluperu.com/" target="_blank" rel="noopener">Ver proyecto</a>
-              </div>
-            </article>
-            <article class="project-card">
-              <div class="project-preview"><img src="img/projects/pigeon.png" alt="Captura del sitio Pigeon LATAM" loading="lazy" decoding="async" /></div>
-              <div class="project-content">
-                <p>WordPress • Corporativo</p>
-                <h3>Pigeon LATAM</h3>
-                <span>Sitio corporativo de la marca líder en cuidado del bebé y lactancia materna en Latinoamérica.</span>
-                <a href="https://pigeonlatam.com/" target="_blank" rel="noopener">Ver proyecto</a>
-              </div>
-            </article>
-            <article class="project-card">
-              <div class="project-preview"><img src="img/projects/soldametal.png" alt="Captura del sitio Soldametal" loading="lazy" decoding="async" /></div>
+             <article class="project-card">
+              <div class="project-preview"><img src="img/projects/roa.png" alt="Captura del sitio Academia ROA" loading="lazy" decoding="async" /></div>
               <div class="project-content">
                 <p>WordPress • WooCommerce</p>
-                <h3>Soldametal</h3>
-                <span>Tienda online de máquinas de soldar, herramientas eléctricas y accesorios industriales en Perú.</span>
-                <a href="https://soldametal.com/" target="_blank" rel="noopener">Ver proyecto</a>
+                <h3>Academia ROA</h3>
+                <span data-en="In-person training academy for Oral Adhesive Rehabilitation in Lima, Peru.">Academia de cursos presenciales de Rehabilitación Oral Adhesiva en Lima, Perú.</span>
+                <a href="https://academiaroa.com/" target="_blank" rel="noopener" data-en="View project">Ver proyecto</a>
               </div>
             </article>
-            <article class="project-card">
+               <article class="project-card">
+              <div class="project-preview"><img src="img/projects/nlandes.png" alt="Captura del sitio NLAndes" loading="lazy" decoding="async" /></div>
+              <div class="project-content">
+                <p>WordPress • Corporativo</p>
+                <h3>NLAndes</h3>
+                <span data-en="Peruvian-Dutch Chamber of Commerce: memberships, consulting and bilateral trade.">Cámara de Comercio Peruano Neerlandesa: membresías, consultorías y comercio bilateral.</span>
+                <a href="https://www.nlandes.com/" target="_blank" rel="noopener" data-en="View project">Ver proyecto</a>
+              </div>
+            </article>
+              <article class="project-card">
               <div class="project-preview"><img src="img/projects/lunademiel.png" alt="Captura del sitio Luna de Miel" loading="lazy" decoding="async" /></div>
               <div class="project-content">
                 <p>WordPress • Blog</p>
                 <h3>Luna de Miel</h3>
-                <span>Revista digital para parejas: bodas, viajes, moda, belleza y estilo de vida en Perú.</span>
-                <a href="https://lunademiel.com.pe/" target="_blank" rel="noopener">Ver proyecto</a>
+                <span data-en="Digital magazine for couples: weddings, travel, fashion, beauty and lifestyle in Peru.">Revista digital para parejas: bodas, viajes, moda, belleza y estilo de vida en Perú.</span>
+                <a href="https://lunademiel.com.pe/" target="_blank" rel="noopener" data-en="View project">Ver proyecto</a>
               </div>
             </article>
-            <article class="project-card">
-              <div class="project-preview"><img src="img/projects/hosteleriamaquinaria.png" alt="Captura del sitio Hostelería Maquinaria" loading="lazy" decoding="async" /></div>
-              <div class="project-content">
-                <p>WordPress • WooCommerce</p>
-                <h3>Hostelería Maquinaria</h3>
-                <span>Tienda online de maquinaria, menaje y mobiliario inoxidable para hostelería en España.</span>
-                <a href="https://hosteleriamaquinaria.es/" target="_blank" rel="noopener">Ver proyecto</a>
-              </div>
-            </article>
-            <article class="project-card">
-              <div class="project-preview"><img src="img/projects/smilesperu.png" alt="Captura del sitio Smiles Peru" loading="lazy" decoding="async" /></div>
+             <article class="project-card">
+              <div class="project-preview"><img src="img/projects/pigeon.png" alt="Captura del sitio Pigeon LATAM" loading="lazy" decoding="async" /></div>
               <div class="project-content">
                 <p>WordPress • Corporativo</p>
-                <h3>Smiles Peru</h3>
-                <span>Clínica dental líder en implantes y rehabilitación oral para turismo dental en Miraflores, Lima.</span>
-                <a href="https://www.smilesperu.com/" target="_blank" rel="noopener">Ver proyecto</a>
+                <h3>Pigeon LATAM</h3>
+                <span data-en="Corporate website of the leading baby care and breastfeeding brand in Latin America.">Sitio corporativo de la marca líder en cuidado del bebé y lactancia materna en Latinoamérica.</span>
+                <a href="https://pigeonlatam.com/" target="_blank" rel="noopener" data-en="View project">Ver proyecto</a>
               </div>
             </article>
-            <article class="project-card">
+              <article class="project-card">
               <div class="project-preview"><img src="img/projects/zeia.png" alt="Captura del sitio Zeia" loading="lazy" decoding="async" /></div>
               <div class="project-content">
                 <p>WordPress • Corporativo</p>
                 <h3>Zeia</h3>
-                <span>Plataforma peruana de monitoreo energético en tiempo real con sensores IoT y tecnología LoRaWAN.</span>
-                <a href="https://zeia.com.pe/" target="_blank" rel="noopener">Ver proyecto</a>
+                <span data-en="Peruvian real-time energy monitoring platform with IoT sensors and LoRaWAN technology.">Plataforma peruana de monitoreo energético en tiempo real con sensores IoT y tecnología LoRaWAN.</span>
+                <a href="https://zeia.com.pe/" target="_blank" rel="noopener" data-en="View project">Ver proyecto</a>
               </div>
             </article>
             <article class="project-card">
@@ -341,10 +429,77 @@
               <div class="project-content">
                 <p>WordPress • Corporativo</p>
                 <h3>Glup</h3>
-                <span>Agencia digital partner estratégico: branding, tech solutions y growth para impulsar el crecimiento digital.</span>
-                <a href="https://glup.com.pe/" target="_blank" rel="noopener">Ver proyecto</a>
+                <span data-en="Strategic digital agency partner: branding, tech solutions and growth.">Agencia digital partner estratégico: branding, tech solutions y growth para impulsar el crecimiento digital.</span>
+                <a href="https://glup.com.pe/" target="_blank" rel="noopener" data-en="View project">Ver proyecto</a>
               </div>
             </article>
+            <article class="project-card">
+              <div class="project-preview"><img src="img/projects/wayu.png" alt="Captura del sitio Wayu Cocina" loading="lazy" decoding="async" /></div>
+              <div class="project-content">
+                <p>Shopify • E-commerce</p>
+                <h3>Wayu Cocina</h3>
+                <span data-en="E-commerce for kitchen and grill utensils with a smooth shopping experience.">E-commerce de utensilios para cocina y parrilla con experiencia de compra fluida.</span>
+                <a href="https://wayu.com.pe/" target="_blank" rel="noopener" data-en="View project">Ver proyecto</a>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-preview"><img src="img/projects/euroderma.png" alt="Captura del sitio Euroderma" loading="lazy" decoding="async" /></div>
+              <div class="project-content">
+                <p>Shopify • E-commerce</p>
+                <h3>Euroderma</h3>
+                <span data-en="Dermocosmetics e-commerce with catalog, blog and professional shopping experience.">E-commerce de dermocosmética con catálogo, blog y experiencia de compra profesional.</span>
+                <a href="https://euroderma.pe/" target="_blank" rel="noopener" data-en="View project">Ver proyecto</a>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-preview"><img src="img/projects/invoga.png" alt="Captura del sitio Invoga" loading="lazy" decoding="async" /></div>
+              <div class="project-content">
+                <p>Shopify • E-commerce</p>
+                <h3>Invoga</h3>
+                <span data-en="Online store of iPhone cases and accessories with an optimized shopping experience.">Tienda online de cases y accesorios para iPhone con experiencia de compra optimizada.</span>
+                <a href="https://invogastore.com/" target="_blank" rel="noopener" data-en="View project">Ver proyecto</a>
+              </div>
+            </article> 
+         
+           
+            <article class="project-card">
+              <div class="project-preview"><img src="img/projects/lumilu.png" alt="Captura del sitio Lumilu Perú" loading="lazy" decoding="async" /></div>
+              <div class="project-content">
+                <p>Shopify • E-commerce</p>
+                <h3>Lumilu Perú</h3>
+                <span data-en="Online store for nursing, beauty and health with brands like Pigeon, Bio Oil and Omron.">Tienda online de lactancia, belleza y salud con marcas como Pigeon, Bio Oil y Omron.</span>
+                <a href="https://lumiluperu.com/" target="_blank" rel="noopener" data-en="View project">Ver proyecto</a>
+              </div>
+            </article>
+           
+            <article class="project-card">
+              <div class="project-preview"><img src="img/projects/soldametal.png" alt="Captura del sitio Soldametal" loading="lazy" decoding="async" /></div>
+              <div class="project-content">
+                <p>WordPress • WooCommerce</p>
+                <h3>Soldametal</h3>
+                <span data-en="Online store of welding machines, power tools and industrial accessories in Peru.">Tienda online de máquinas de soldar, herramientas eléctricas y accesorios industriales en Perú.</span>
+                <a href="https://soldametal.com/" target="_blank" rel="noopener" data-en="View project">Ver proyecto</a>
+              </div>
+            </article> 
+            <article class="project-card">
+              <div class="project-preview"><img src="img/projects/hosteleriamaquinaria.png" alt="Captura del sitio Hostelería Maquinaria" loading="lazy" decoding="async" /></div>
+              <div class="project-content">
+                <p>WordPress • WooCommerce</p>
+                <h3>Hostelería Maquinaria</h3>
+                <span data-en="Online store of machinery, tableware and stainless steel furniture for hospitality in Spain.">Tienda online de maquinaria, menaje y mobiliario inoxidable para hostelería en España.</span>
+                <a href="https://hosteleriamaquinaria.es/" target="_blank" rel="noopener" data-en="View project">Ver proyecto</a>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-preview"><img src="img/projects/smilesperu.png" alt="Captura del sitio Smiles Peru" loading="lazy" decoding="async" /></div>
+              <div class="project-content">
+                <p>WordPress • Corporativo</p>
+                <h3>Smiles Peru</h3>
+                <span data-en="Leading dental clinic in implants and oral rehabilitation for dental tourism in Miraflores, Lima.">Clínica dental líder en implantes y rehabilitación oral para turismo dental en Miraflores, Lima.</span>
+                <a href="https://www.smilesperu.com/" target="_blank" rel="noopener" data-en="View project">Ver proyecto</a>
+              </div>
+            </article>
+          
           </div>
           <button class="carousel-btn" type="button" aria-label="Proyecto siguiente" data-next>›</button>
         </div>
@@ -352,18 +507,18 @@
 
       <section class="section" id="experiencia">
         <div class="section-heading reveal">
-          <p class="eyebrow">Trayectoria</p>
-          <h2>Experiencia</h2>
-          <p>Empresas, proyectos y sectores donde aporté desarrollo web y soluciones digitales.</p>
+          <p class="eyebrow" data-en="Career">Trayectoria</p>
+          <h2 data-en="Experience">Experiencia</h2>
+          <p data-en="Companies, projects and industries where I contributed web development and digital solutions.">Empresas, proyectos y sectores donde aporté desarrollo web y soluciones digitales.</p>
         </div>
 
         <div class="timeline">
           <article class="experience-card reveal">
             <div class="company-mark"><img src="img/experience/glup.png" alt="Glup Tech" /></div>
             <div>
-              <span>Ago 2024 - Actualidad</span>
+              <span data-en="Aug 2024 - Present">Ago 2024 - Actualidad</span>
               <h3>Glup Tech</h3>
-              <p>Desarrollador de E-commerce remoto. Desarrollo y mantenimiento de tiendas online y sitios web corporativos con WordPress, WooCommerce y Shopify.</p>
+              <p data-en="Remote E-commerce Developer. Development and maintenance of online stores and corporate websites with WordPress, WooCommerce and Shopify.">Desarrollador de E-commerce remoto. Desarrollo y mantenimiento de tiendas online y sitios web corporativos con WordPress, WooCommerce y Shopify.</p>
               <a href="https://glup.com.pe/" target="_blank" rel="noopener">glup.com.pe</a>
             </div>
           </article>
@@ -372,16 +527,16 @@
             <div>
               <span>Sep 2019 - Jun 2025</span>
               <h3>Grupo Tendenze Comunicaciones</h3>
-              <p>Desarrollador Web remoto. Creación de sitios corporativos, tiendas online y landing pages para clientes internacionales con WordPress, WooCommerce y Shopify.</p>
+              <p data-en="Remote Web Developer. Creation of corporate websites, online stores and landing pages for international clients with WordPress, WooCommerce and Shopify.">Desarrollador Web remoto. Creación de sitios corporativos, tiendas online y landing pages para clientes internacionales con WordPress, WooCommerce y Shopify.</p>
               <a href="https://tendenzeperu.com/" target="_blank" rel="noopener">tendenzeperu.com</a>
             </div>
           </article>
           <article class="experience-card reveal">
             <div class="company-mark"><img src="img/experience/divelia.png" alt="Divelia" /></div>
             <div>
-              <span>Feb 2023 - Ago 2023</span>
+              <span data-en="Feb 2023 - Aug 2023">Feb 2023 - Ago 2023</span>
               <h3>Divelia</h3>
-              <p>Desarrollador Web remoto. Maquetación y desarrollo de sitios web, tiendas online con WooCommerce y plataformas institucionales.</p>
+              <p data-en="Remote Web Developer. Layout and development of websites, WooCommerce online stores and institutional platforms.">Desarrollador Web remoto. Maquetación y desarrollo de sitios web, tiendas online con WooCommerce y plataformas institucionales.</p>
               <a href="https://divelia.com/" target="_blank" rel="noopener">divelia.com</a>
             </div>
           </article>
@@ -390,7 +545,7 @@
             <div>
               <span>2018 - 2019 / 2022</span>
               <h3>Instituto de Gerencia Intercontinental (IGC)</h3>
-              <p>Desarrollador Web Freelancer. Desarrollo y mantenimiento de plataforma educativa, sitio institucional y aula virtual.</p>
+              <p data-en="Freelance Web Developer. Development and maintenance of an educational platform, institutional website and virtual classroom.">Desarrollador Web Freelancer. Desarrollo y mantenimiento de plataforma educativa, sitio institucional y aula virtual.</p>
               <a href="https://igc.edu.pe/" target="_blank" rel="noopener">igc.edu.pe</a>
             </div>
           </article>
@@ -399,7 +554,7 @@
             <div>
               <span>May 2022 - Jul 2022</span>
               <h3>Solida Construcción</h3>
-              <p>Desarrollador Web Freelancer. Desarrollo de sitio web corporativo para empresa constructora.</p>
+              <p data-en="Freelance Web Developer. Development of a corporate website for a construction company.">Desarrollador Web Freelancer. Desarrollo de sitio web corporativo para empresa constructora.</p>
               <a href="https://www.solidaconstruccion.com/" target="_blank" rel="noopener">solidaconstruccion.com</a>
             </div>
           </article>
@@ -409,9 +564,9 @@
 
     <footer class="footer" id="contacto">
       <div>
-        <p class="eyebrow">Contacto</p>
+        <p class="eyebrow" data-en="Contact">Contacto</p>
         <h2>Wilber</h2>
-        <p>Desarrollo moderno, e-commerce, automatización e IA aplicada.</p>
+        <p data-en="Modern development, e-commerce, automation and applied AI.">Desarrollo moderno, e-commerce, automatización e IA aplicada.</p>
       </div>
       <div class="footer-links">
         <a href="https://wa.me/51926776516" target="_blank" rel="noreferrer">WhatsApp</a>
