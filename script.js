@@ -4,6 +4,28 @@ const nav = document.querySelector('[data-nav]');
 const carousel = document.querySelector('[data-carousel]');
 const revealItems = document.querySelectorAll('.reveal');
 
+const langToggle = document.querySelector('[data-lang-toggle]');
+
+const applyLang = (lang) => {
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-en]').forEach((el) => {
+    if (!el.dataset.es) {
+      el.dataset.es = el.innerHTML;
+    }
+    el.innerHTML = lang === 'en' ? el.dataset.en : el.dataset.es;
+  });
+  langToggle?.querySelectorAll('span').forEach((badge) => {
+    badge.classList.toggle('is-active', badge.dataset.langLabel === lang);
+  });
+};
+
+applyLang('es');
+
+langToggle?.addEventListener('click', () => {
+  const next = document.documentElement.lang === 'es' ? 'en' : 'es';
+  applyLang(next);
+});
+
 menuToggle?.addEventListener('click', () => {
   const isOpen = header.classList.toggle('menu-open');
   menuToggle.setAttribute('aria-expanded', String(isOpen));
@@ -179,3 +201,44 @@ const observer = new IntersectionObserver(
 );
 
 revealItems.forEach((item) => observer.observe(item));
+
+const statNumbers = document.querySelectorAll('.stat-number[data-target]');
+
+const animateStat = (el) => {
+  const target = parseInt(el.dataset.target, 10);
+  if (!Number.isFinite(target)) return;
+
+  const duration = 1400;
+  const start = performance.now();
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (reduceMotion) {
+    el.textContent = `+${target}`;
+    return;
+  }
+
+  const tick = (now) => {
+    const progress = Math.min((now - start) / duration, 1);
+    const eased = 1 - Math.pow(1 - progress, 3);
+    el.textContent = `+${Math.round(eased * target)}`;
+    if (progress < 1) requestAnimationFrame(tick);
+  };
+
+  requestAnimationFrame(tick);
+};
+
+if (statNumbers.length > 0) {
+  const statsObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          animateStat(entry.target);
+          statsObserver.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.4 }
+  );
+
+  statNumbers.forEach((el) => statsObserver.observe(el));
+}
