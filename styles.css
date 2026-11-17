@@ -877,10 +877,11 @@ h3 {
 
 .experience-card {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto minmax(0, 1fr);
   gap: 18px;
   padding: 22px;
   border-radius: var(--radius);
+  overflow-wrap: anywhere;
 }
 
 .company-mark {
@@ -908,6 +909,21 @@ h3 {
   color: var(--blue);
   font-size: 0.86rem;
   font-weight: 800;
+}
+
+.experience-functions {
+  display: grid;
+  gap: 8px;
+  margin: 14px 0 0;
+  padding-left: 20px;
+  color: var(--muted);
+  line-height: 1.75;
+  list-style: disc;
+}
+
+.experience-functions li::marker {
+  color: var(--violet);
+  font-size: 0.75em;
 }
 
 .footer {
