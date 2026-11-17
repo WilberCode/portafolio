@@ -14,6 +14,12 @@ const applyLang = (lang) => {
     }
     el.innerHTML = lang === 'en' ? el.dataset.en : el.dataset.es;
   });
+  document.querySelectorAll('[data-en-content]').forEach((el) => {
+    if (!el.hasAttribute('data-es-content')) {
+      el.dataset.esContent = el.getAttribute('content');
+    }
+    el.setAttribute('content', lang === 'en' ? el.dataset.enContent : el.dataset.esContent);
+  });
   langToggle?.querySelectorAll('span').forEach((badge) => {
     badge.classList.toggle('is-active', badge.dataset.langLabel === lang);
   });
